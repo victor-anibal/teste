@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif, 'kalnia';
+
+}
+
+:root {
+    --color-0: rgb(135, 30, 137);
+    --color-1: black;
+    --color-2: rgb(201, 191, 191);
+    --color-3: rgb(217, 217, 217, 30%);
+    --color-4: rgb(220, 176, 235, 93%);
+    --color-5: rgba(89, 8, 164, 0.432);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: var(--color-0);
+    color: var(--color-4);
+}
+
+h2 {
+    height: 10rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 6vmin;
+    margin-bottom: 15px;
+}
+
+header h1:hover {
+    font-size: 3rem;
+}
+
+
+.log-header {}
+
+.log-section {
+    background-color: var(--color-0);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-11);
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 15px;
+    width: 18rem;
+    height: 2.5rem;
+    background-color: var(--color-3);
+    color: var(--color-1);
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    background-color: var(--color-1);
+    color: #fff;
+    transition: .8s;
+}
+
+i {
+    color: white;
+    padding: 10px;
+}
+
+section p {
+    color: var(--color-2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    /* cursor: pointer; */
+
+}
+
+.icon {
+    position: relative;
+    top: 2.8rem;
+    left: 1rem;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 1.6rem;
+    font-size: 1.6rem;
+    display: block;
+}
+
+input:focus {
+    outline-color: var(--color-0);
+}
+
+.login-btn {
+    /* margin-bottom: 20px; */
+    /* width: 12.5rem; */
+    height: 2rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 0;
+    margin: 10px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: var(--color-1);
+    border-radius: 20px;
+    height: 2rem;
+    cursor: pointer;
+}
+
+a {
+    color: var(--color-1);
+}
